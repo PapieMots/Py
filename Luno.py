@@ -69,15 +69,7 @@ else:
     
     cnx.commit()
     cursor.close()
-    cnx.close()            
-    # Add Indicators to Sheet
-    #wb = load_workbook(filename = 'DATE Check.xlsx')
-    #ws = wb['LunoData']
-    #ws.insert_rows(2)
-    ##ws.cell(2,1,luno_timestamp_epoch)
-    #ws.cell(2,1,time.strftime('%Y-%m-%dT%H:%M:%S %Z',time.localtime(time.time())))
-    #ws.cell(2,2,luno_askprice)
-    #wb.save(filename = 'DATE Check.xlsx')
+    cnx.close()
 
 
     # try:

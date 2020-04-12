@@ -76,12 +76,3 @@ else:
     cnx.commit()
     cursor.close()
     cnx.close() 
-    ### Add Indicators to Sheet
-    # wb = load_workbook(filename = 'DATE Check.xlsx')
-    # ws = wb['BitStampData']
-    # ws.insert_rows(2)
-    #---ws.cell(2,1,bitstamp_btceur_timestamp_epoch)
-    # ws.cell(2,1,time.strftime('%Y-%m-%dT%H:%M:%S %Z',time.localtime(time.time())))
-    # ws.cell(2,2,bitstamp_btceur_bidprice)
-    # ws.cell(2,3,bitstamp_btcusd_bidprice)
-    # wb.save(filename = 'DATE Check.xlsx')
