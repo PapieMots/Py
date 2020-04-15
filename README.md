@@ -13,4 +13,5 @@ Foreign Exchange Prices
 The basic structure
 
 
-*Raspberry Pi Push test* [21:48]*
+*Raspberry Pi Push test*
+[SUCCESS]
