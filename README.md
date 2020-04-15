@@ -4,7 +4,9 @@ Neophyte experiment in building up a basic digital asset exchange arbitrage engi
 
 #### Modules
 Relevant modules
+
 Digital Asset Prices
+
 Foreign Exchange Prices
 
 #### Basic Structure
